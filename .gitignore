@@ -1,0 +1,6 @@
+/target
+Cargo.lock
+*.log
+# never commit local agent/skill tooling
+.agents/
+.claude/

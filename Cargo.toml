@@ -1,0 +1,15 @@
+[package]
+name = "chrono-sync"
+version = "0.1.0"
+edition = "2021"
+description = "Vector clocks for distributed causal ordering — detect happens-before and concurrent events without a global clock."
+license = "MIT"
+authors = ["Harshan Aiyappa"]
+
+[lib]
+name = "chrono_sync"
+path = "src/lib.rs"
+
+[[bin]]
+name = "chrono-sync"
+path = "src/main.rs"
