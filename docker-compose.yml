@@ -1,0 +1,8 @@
+services:
+  chrono-sync:
+    image: rust:1-slim
+    working_dir: /app
+    volumes:
+      - ./:/app
+    # Compiles and runs the causal-ordering demo (zero external dependencies).
+    command: cargo run
