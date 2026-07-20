@@ -19,8 +19,8 @@ two clocks tells you whether one event **happened-before** another, they're **eq
 ChronoSync is a small, dependency-free Rust library implementing this correctly, with property-style tests
 and a runnable demo of nodes exchanging messages.
 
-> Part of my Senior Hybrid Engineer 2026 portfolio (`#52`). Distributed-systems fundamentals, and my first
-> Rust project — memory-safe, zero-dependency, provable with tests.
+> Distributed-systems fundamentals, and my first Rust project — memory-safe,
+> zero-dependency, provable with tests.
 
 ## 🚀 Quick Start
 ```bash
